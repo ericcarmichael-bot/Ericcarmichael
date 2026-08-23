@@ -1,0 +1,24 @@
+## OS
+.DS_Store
+Thumbs.db
+
+## Editors
+.vscode/
+.idea/
+*.swp
+
+## Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+## Office / temp files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+*.tmp
+
+## Secrets
+.env
