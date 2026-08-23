@@ -1,6 +1,4 @@
-# Replace with your resume content.
  ERIC LEE CARMICHAEL
-eric.carmichael@gmail.com | (831)-521-8803 | 91-1012 Waiinu St, Ewa Beach, HI, 96706
 Work Experience	
 
 Finance & Business Development Manager, HI – Wonderful Sales, The Wonderful Company| Mar ’21 - Now
