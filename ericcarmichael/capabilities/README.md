@@ -1,1 +1,1 @@
-# Add one subfolder per capability here.
+This should include the specs that are the individual capabilities associated 
