@@ -1,3 +1,20 @@
+The farm is attempting to optimize the crops in the planter beds in order to maximize profit and ensure that marginal costs are not exceeded. 
+The farm is too small in this example to influence market prices.
+The question that the farm is trying to answer is what particular crops and in what quantities it should produce.
+This is a small farm with a single set of hands and four temporary workers.
+The only variable that the farm can control is what crops go into the ground.
+Every additional bed of crop that is planted increases the labor required and makes each bed incrementally more expensive due to pest pressures, harvest bottlenecks, walking time etc
+The season is 36 weeks long. 
+Fixed costs are 20,000
+There are 64 beds in total. 16 beds by 4 plots. 
+The farmer has a cost of 50,000 per season with half her time in the fields (assuming 720 hours of work), and additional labor is at the rate of 
+
+I hypothesize that we need roughly 10 beds of tomatoes, 20 beds of carrots and 34 beds of mesclun although planting fully likely will go beyond the marginal benefit. It is likely roughly in this ratio due to the revenue and cost scaling relationship.
+
+
+
+**Ignore everything below this line**
+
 Here is the prompt from the case:
 
 A market garden selling into a farmers’ market is a price taker: far too small to
