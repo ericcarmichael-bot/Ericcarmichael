@@ -11,5 +11,4 @@ A record of the prompts used to draft portfolio content with AI assistance, and 
 
 ## Resume (RESUME.md)
 
-- **Prompt:** _[paste the prompt you used to draft/format the resume]_
-  - **Kept/changed:** _[one line on what you kept or edited from the AI's draft]_
+- Written directly, no AI assistance used.
