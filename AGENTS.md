@@ -22,3 +22,7 @@ This repository is a working portfolio of business/economics analysis for Eric C
 ## Logging AI use
 
 Any AI-assisted drafting of narrative content (bio, resume framing, written analysis) should be logged in `prompt-log.md`: the prompt used, and a one-line note on what was kept or changed from the output.
+
+## Never include
+
+No credentials, API keys, or personal data about anyone else. If I paste something that looks like it fits that description, stop and tell me instead of committing it.
