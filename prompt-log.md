@@ -2,12 +2,10 @@
 
 A record of the prompts used to draft portfolio content with AI assistance, and what was kept or changed from the output.
 
-<!-- TODO: replace each entry below with the actual prompt(s) you used. -->
-
 ## Bio (README.md)
 
-- **Prompt:** _[paste the prompt you used to draft the bio]_
-  - **Kept/changed:** _[one line on what you kept or edited from the AI's draft]_
+- **Prompt:** "README.md Three to six sentences on who you are and what you are working toward, then an engagement index: a short list linking each piece of work to its brief, analysis, and memo. This is the by-subject view of the repository. It lives here, never in the folder paths."
+  - **Kept/changed:** Used the draft as a starting point, then edited it before committing.
 
 ## Resume (RESUME.md)
 
