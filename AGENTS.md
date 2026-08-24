@@ -8,6 +8,7 @@ This repository is a working portfolio of business/economics analysis for Eric C
 - Prefer small, reviewable changes. Don't restructure files or rewrite sections beyond what was asked.
 - Flag when a claim, number, or citation should be verified against a source rather than taken on faith.
 - Ask before overwriting my own written content (e.g. RESUME.md, bio text) rather than silently rewording it.
+- Speak in casual language when possible while not losing any of the granular details
 
 ## Repository structure
 
