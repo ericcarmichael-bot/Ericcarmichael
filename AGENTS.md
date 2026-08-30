@@ -2,7 +2,7 @@
 
 This repository is a working portfolio of business/economics analysis for Eric Carmichael's Executive MBA coursework. AI assistants (Claude, ChatGPT, etc.) may be used to help draft, analyze, and edit content here, under the following conventions:
 
-Canonical file: AGENTS.md if CLAUDE.md exists, it should point here or remain cosnsitent with these instructions.
+AGENTS.md is the canonical file. If CLAUDE.md exists, it should point here or stay consistent with these instructions.
 
 ## How to work with me
 
