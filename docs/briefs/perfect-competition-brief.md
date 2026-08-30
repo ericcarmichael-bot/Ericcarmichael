@@ -20,3 +20,4 @@ I hypothesize that we need the following assortment of crops:
 -Tomatoes have the highest revenue but also the highest diminishing returns and the most labor hours. Therefore, tomatoes will be very attractive initially, but their margin will decline quickly. I hypothesize that we will need 8 beds of tomatoes rather than the full 20 due to diminishing returns
 -Carrots have the lowest labor costs and fertilizer costs and low diminishing returns of 2.5%. Because this uses the resources more efficiently, I suspect we would maximize this crop to 20 beds
 -Mesclun has the lowest diminishing returns so this will likely take up the rest of the slack. I expect Mesclun would become increasingly attractive as the tomatoes' return declines. I suspect we would maximize this crop as well and plant 30 beds. 
+-This means that I hypothesize a total of 58 beds planted. 
