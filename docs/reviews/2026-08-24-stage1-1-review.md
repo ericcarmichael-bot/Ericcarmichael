@@ -1,5 +1,5 @@
 <!-- PR TARGET: https://github.com/ericcarmichael-bot/eric-carmichael | Stage 1.1 (2.5 pts) -->
-# Stage 1.1 review — engagement brief · **82 / 100** (B) · 2.05 / 2.5 pts
+# Stage 1.1 review — engagement brief · **82 / 100** (B-) · 2.05 / 2.5 pts
 
 **Brief:** [`docs/briefs/perfect-competition-brief.md`](https://github.com/ericcarmichael-bot/eric-carmichael/blob/main/docs/briefs/perfect-competition-brief.md)
 
