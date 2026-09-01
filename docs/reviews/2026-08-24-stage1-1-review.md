@@ -1,37 +1,33 @@
 <!-- PR TARGET: https://github.com/ericcarmichael-bot/eric-carmichael | Stage 1.1 (2.5 pts) -->
-# Stage 1.1 review — engagement brief · **80 / 100** (B-) · 2.00 / 2.5 pts
+# Stage 1.1 review — engagement brief · **82 / 100** (B) · 2.05 / 2.5 pts
 
 **Brief:** [`docs/briefs/perfect-competition-brief.md`](https://github.com/ericcarmichael-bot/eric-carmichael/blob/main/docs/briefs/perfect-competition-brief.md)
 
+> Re-graded 2026-08-31 against your revised brief. Your previous score was 80, and that 80 was the floor rather than a total you had earned — your raw was 60. This one is 82 on merit, so the floor is no longer carrying anything. One section is still missing and it is worth eight points on its own.
+
 | Criterion | Earned | Notes |
 |---|---|---|
-| Problem restated in your own voice | 20 / 30 | The opening is good and it is clearly yours — the farm is too small to influence prices, the only variable it controls is what goes in the ground, and every extra bed makes each bed more expensive through pest pressure and harvest bottlenecks. That is the case understood. Two things pull it down. One sentence stops mid-thought: "additional labor is at the rate of" and then nothing. And roughly half the file is the case prompt pasted in under a line reading "Ignore everything below this line" — which means a reader has to be told which parts of your brief are yours. |
-| Hypothesis names a specific mix | 18 / 25 | You name "roughly 10 beds of tomatoes, 20 beds of carrots and 34 beds of mesclun." Specific, which is what the stage asks for — but the mesclun cap is 30, so 34 is not an available choice. It also totals 64, which suggests the numbers were fitted to fill the farm rather than derived from the crop economics. |
-| Economic mechanism | 12 / 25 | "It is likely roughly in this ratio due to the revenue and cost scaling relationship" is the whole of the reasoning, and it is too general to be checked. The case hands you the specific scaling relationship — labor hours grow at 10% per tomato bed, 2.5% per carrot bed, 1.25% per mesclun bed — and naming those rates is what turns a ratio into a prediction. The hedge that follows, "although planting fully likely will go beyond the marginal benefit," points at the right idea but pulls back from committing to it. |
-| Falsifiability and process | 10 / 20 | You have no falsification section, and the hedge means your brief can accommodate most outcomes. Brief and spec were committed in the same push on 2026-08-23, so the brief-before-modeling order is not clearly demonstrated by the history — I checked the spec content and there was no real modeling in it, so I am not treating this as a violation. Correct path. |
-| **Raw total** | **60 / 100** | — |
-| **Floor applied** | **+20** | 80% floor: a committed brief that states the problem and names a specific mix |
-| **Final** | **80 / 100** | floored |
+| Problem restated in your own voice | 25 / 30 | Up from 20. The opening is genuinely yours and it is right: the farm is too small to influence price, it is a price taker, the only variable it controls is what goes into the ground, and every additional bed of a crop makes each bed of that crop more expensive because of pest pressure, harvest bottlenecks, and walking time. That last sentence explains why diminishing returns exist rather than just naming them, which is more than most of this cohort managed. The five points off are that the second half of the section is the case data table transcribed, and transcription is not restatement. What is missing is the one sentence the stage actually asks for: what happens if this is decided badly. You know the answer — the season is planted once — but you do not say it. |
+| Hypothesis names a specific mix | 25 / 25 | Up from 18. Eight tomato, 20 carrot, 30 mesclun, totaling 58 beds, with the six idle beds stated as a consequence rather than left unexplained. Last time you wrote "roughly 10 beds" and a mesclun figure of 34 that exceeded the 30-bed cap. Both are fixed and the numbers are now inside the constraints. |
+| Economic mechanism | 22 / 25 | Up from 12, and this is where the score moved. Last time the reasoning was "it is likely roughly in this ratio due to the revenue and cost scaling relationship," which is a sentence that could precede any three numbers. Now you argue crop by crop and the argument has a direction: tomatoes are attractive first and decline fastest, carrots use resources most efficiently so they run to the cap, and mesclun "would become increasingly attractive as the tomatoes' return declines." |
+| Falsifiability and process | 10 / 20 | Unchanged, and it is now the only thing holding this brief down. There is still no section saying what result would show you were wrong. Everything else in this brief has improved; this has not moved at all, and it is worth more than any other single fix available to you. |
+| **Final** | **82 / 100** | earned on merit |
 
-### What I'd fix first
+### Why the substitution argument is the best thing here
 
-- Delete everything below the "Ignore everything below this line" marker. That block is the case prompt, not your work, and leaving it in makes the brief roughly twice as long as it is. A reader — me, or you in Stage 3 — should not have to sort your reasoning from the source material.
+"I expect Mesclun would become increasingly attractive as the tomatoes' return declines" is doing something the rest of the cohort's briefs do not. Everyone else ranks the three crops once and allocates in that order. You are describing a comparison that changes as you go: mesclun does not get better in absolute terms, it gets better relative to the alternative, because the alternative is getting worse.
 
-- Finish the sentence about temporary labor. It currently ends at "additional labor is at the rate of". The figure is $25,000 per temp worker for 1,440 hours, which works out to $17.36 an hour against the farmer's implied $34.72.
+That is how the actual decision works. At every bed you are not asking "is this crop good" but "is this crop the best remaining use of a bed right now," and the answer moves as the beds fill. Hold onto that framing for Stage 2. It is the reason the optimizer's answer will not be a simple ranking, and it is the thing you will be able to explain in Stage 3 that others will not.
 
-- Bring mesclun down to 30 or below. The cap is 30 beds, so 34 is outside the feasible set. That matters more than a typo would: it means the mix was built to total 64 rather than derived from where each crop stops paying, and fixing the number is a chance to ask what each crop's stopping point actually is.
+### What I'd fix first, and it is one paragraph
 
-- Replace "the revenue and cost scaling relationship" with the actual rates. This is the sentence that decides your score on this stage. Tomatoes at 10% a bed compound fast — the 10th bed carries about 2.4 times the labor per bed of the first, the 20th about 6.7 times. Carrots at 2.5% and mesclun at 1.25% barely move by comparison. Say which crop you expect to stop on rising cost and which you expect to run into its cap, and why. You are already halfway there: "planting fully likely will go beyond the marginal benefit" is that idea, just unstated.
+Add a section called "How I would know I was wrong." Three sentences is enough. Each one names an outcome the model could actually produce and says what claim of yours it would break.
 
-- Add a "How I would know I was wrong" section. Three bullets naming results that would count against you.
+Yours are already sitting in your own text, unwritten. You claim tomatoes decline fastest — so if the model plants more than 8 tomato beds, you were wrong about how fast. You claim carrots and mesclun both run to their caps — so if either comes back under its cap, something stopped them before the cap did and you do not know what. You claim six beds are not worth planting — so if all 64 come back planted, that claim is dead.
 
-### A note on the score
+Write the version with numbers in it. "If the model plants more than 8 tomato beds" is a real test. "If the model shows a different mix" is not — that is true of every hypothesis ever written, and it is the single most common failure in this stage.
 
-Your raw total was 60 and the floor carried it to 80. I want to be clear that this is not a judgment about effort — you turned in the largest Stage 0 improvement in the cohort, and the opening paragraphs of this brief show you understand the case. The gap here is specificity: the brief names a mix but not a mechanism, and this stage grades the mechanism. It is an hour of work and the deadline has not passed.
-
-### Looking ahead to Stage 2
-
-Once you have revised, freeze the brief. Stage 3 compares the prediction against the model, and the comparison only means something if the prediction stopped changing before the model ran.
+Do this before you build, not after. A falsification condition written after you have seen the answer is not a prediction.
 
 ---
 
