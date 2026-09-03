@@ -1,33 +1,39 @@
 <!-- PR TARGET: https://github.com/ericcarmichael-bot/eric-carmichael | Stage 1.1 (2.5 pts) -->
-# Stage 1.1 review — engagement brief · **82 / 100** (B-) · 2.05 / 2.5 pts
+# Stage 1.1 review — engagement brief · **93 / 100** (A) · 2.33 / 2.5 pts
 
 **Brief:** [`docs/briefs/perfect-competition-brief.md`](https://github.com/ericcarmichael-bot/eric-carmichael/blob/main/docs/briefs/perfect-competition-brief.md)
 
-> Re-graded 2026-08-31 against your revised brief. Your previous score was 80, and that 80 was the floor rather than a total you had earned — your raw was 60. This one is 82 on merit, so the floor is no longer carrying anything. One section is still missing and it is worth eight points on its own.
+> Re-graded 2026-09-02 against your revision of this morning. Your previous score was 82. You added the section that was missing and you added the sentence I said you already knew but had not written. That is the largest single-pass gain anyone has made on this stage without starting from a floor.
 
 | Criterion | Earned | Notes |
 |---|---|---|
-| Problem restated in your own voice | 25 / 30 | Up from 20. The opening is genuinely yours and it is right: the farm is too small to influence price, it is a price taker, the only variable it controls is what goes into the ground, and every additional bed of a crop makes each bed of that crop more expensive because of pest pressure, harvest bottlenecks, and walking time. That last sentence explains why diminishing returns exist rather than just naming them, which is more than most of this cohort managed. The five points off are that the second half of the section is the case data table transcribed, and transcription is not restatement. What is missing is the one sentence the stage actually asks for: what happens if this is decided badly. You know the answer — the season is planted once — but you do not say it. |
-| Hypothesis names a specific mix | 25 / 25 | Up from 18. Eight tomato, 20 carrot, 30 mesclun, totaling 58 beds, with the six idle beds stated as a consequence rather than left unexplained. Last time you wrote "roughly 10 beds" and a mesclun figure of 34 that exceeded the 30-bed cap. Both are fixed and the numbers are now inside the constraints. |
-| Economic mechanism | 22 / 25 | Up from 12, and this is where the score moved. Last time the reasoning was "it is likely roughly in this ratio due to the revenue and cost scaling relationship," which is a sentence that could precede any three numbers. Now you argue crop by crop and the argument has a direction: tomatoes are attractive first and decline fastest, carrots use resources most efficiently so they run to the cap, and mesclun "would become increasingly attractive as the tomatoes' return declines." |
-| Falsifiability and process | 10 / 20 | Unchanged, and it is now the only thing holding this brief down. There is still no section saying what result would show you were wrong. Everything else in this brief has improved; this has not moved at all, and it is worth more than any other single fix available to you. |
-| **Final** | **82 / 100** | earned on merit |
+| Problem restated in your own voice | 28 / 30 | Up from 25. The five-point deduction last time was for one absent sentence: what happens if this is decided badly. You wrote it, and you wrote it better than I described. "The season is planted a single time. There is no mid-season reallocation if the mix is incorrect. Any error here isn't an inefficiency; it's locked in for the 36-week season." The distinction between an inefficiency and a locked-in commitment is the reason this decision deserves a written brief at all. Two points still off because the middle of the section is the case table transcribed, and transcription is not restatement. |
+| Hypothesis names a specific mix | 25 / 25 | Eight tomato, 20 carrot, 30 mesclun, 58 beds, six idle and stated as a consequence. Unchanged and still full marks. |
+| Economic mechanism | 22 / 25 | Unchanged. Still crop by crop, still directional, and the substitution argument — mesclun becomes attractive as tomatoes decline — is still the best framing anyone brought to this stage. The three points are the same three: you never put a number to the compounding. "Their margin will decline quickly" is the claim; 1.10 to the eighth is about 2.14, so the eighth tomato bed carries roughly twice the labor hours of the first, and that is the sentence that would close it. |
+| Falsifiability and process | 18 / 20 | Up from 10, and this is the whole move. Four conditions, each naming a number the model could return and the claim it would break — more than or fewer than 8 tomato beds, carrots under 20, mesclun under 30, more than 58 beds total. They are yours: I listed three of them out of your own text and you wrote the fourth. Two points off for no tolerance. "Fewer or additional beds of tomatoes" makes 9 beds and 19 beds the same verdict, and they mean different things about how fast you think the penalty bites. |
+| **Final** | **93 / 100** | entered |
 
-### Why the substitution argument is the best thing here
+### What actually moved, so you can repeat it
 
-"I expect Mesclun would become increasingly attractive as the tomatoes' return declines" is doing something the rest of the cohort's briefs do not. Everyone else ranks the three crops once and allocates in that order. You are describing a comparison that changes as you go: mesclun does not get better in absolute terms, it gets better relative to the alternative, because the alternative is getting worse.
+Two of the four criteria moved and both moved for the same reason: you took a claim you were already making implicitly and wrote it down explicitly.
 
-That is how the actual decision works. At every bed you are not asking "is this crop good" but "is this crop the best remaining use of a bed right now," and the answer moves as the beds fill. Hold onto that framing for Stage 2. It is the reason the optimizer's answer will not be a simple ranking, and it is the thing you will be able to explain in Stage 3 that others will not.
+You always knew the season is planted once. You always knew tomatoes are the crop that stops early. The brief scored 82 because those things were in your head and not on the page, and a brief is only worth what is on the page — in Stage 3 you compare what you committed to against what the model says, and an unwritten belief cannot be compared to anything.
 
-### What I'd fix first, and it is one paragraph
+That is the whole discipline, and it is not about writing more. Your revision added about ten lines.
 
-Add a section called "How I would know I was wrong." Three sentences is enough. Each one names an outcome the model could actually produce and says what claim of yours it would break.
+### The one thing to add before you build
 
-Yours are already sitting in your own text, unwritten. You claim tomatoes decline fastest — so if the model plants more than 8 tomato beds, you were wrong about how fast. You claim carrots and mesclun both run to their caps — so if either comes back under its cap, something stopped them before the cap did and you do not know what. You claim six beds are not worth planting — so if all 64 come back planted, that claim is dead.
+Decide your tolerance now, while you cannot see the answer.
 
-Write the version with numbers in it. "If the model plants more than 8 tomato beds" is a real test. "If the model shows a different mix" is not — that is true of every hypothesis ever written, and it is the single most common failure in this stage.
+You predict 8 tomato beds. If the model returns 9, were you wrong? If it returns 14? Pick the number you would accept as close enough that your mechanism was right and only your crossover estimate was off, and write it into the brief in one sentence. It takes thirty seconds and it is the difference between a Stage 3 reflection that says "I was wrong" and one that says what exactly was wrong.
 
-Do this before you build, not after. A falsification condition written after you have seen the answer is not a prediction.
+Do not wait until after the Solver run. A tolerance chosen after you have seen the answer is not a tolerance.
+
+### Looking ahead to Stage 1.2
+
+There is nothing at capabilities/marginal-analysis/spec.md yet beyond a stub, and the stage is due 6 September. The specification is the deliverable that matters most in that stage — it is the document the workbook is built from, and the rule is that when a check fails you fix the specification and regenerate rather than patching the sheet.
+
+Your substitution argument gives you a head start on part of it. The specification has to say how a marginal cost schedule is built, and the reason yours will be right is that you already understand the answer is not a ranking — it is a comparison that moves as the beds fill.
 
 ---
 
