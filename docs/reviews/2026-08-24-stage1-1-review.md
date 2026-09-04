@@ -1,39 +1,42 @@
-<!-- PR TARGET: https://github.com/ericcarmichael-bot/eric-carmichael | Stage 1.1 (2.5 pts) -->
-# Stage 1.1 review — engagement brief · **93 / 100** (A) · 2.33 / 2.5 pts
+<!-- PR TARGET: https://github.com/ericcarmichael-bot/eric-carmichael | Stage 1.1 -->
+# Stage 1.1 review — engagement brief
 
 **Brief:** [`docs/briefs/perfect-competition-brief.md`](https://github.com/ericcarmichael-bot/eric-carmichael/blob/main/docs/briefs/perfect-competition-brief.md)
 
-> Re-graded 2026-09-02 against your revision of this morning. Your previous score was 82. You added the section that was missing and you added the sentence I said you already knew but had not written. That is the largest single-pass gain anyone has made on this stage without starting from a floor.
+> Re-graded 2026-09-04 against your revision of this morning. You have been reviewed on this before. You restructured the problem section and added a tolerance band, and both were exactly right. You also added one line of arithmetic that is wrong in an important way, and I want to be precise about it because you are about to build a model on top of it.
 
-| Criterion | Earned | Notes |
-|---|---|---|
-| Problem restated in your own voice | 28 / 30 | Up from 25. The five-point deduction last time was for one absent sentence: what happens if this is decided badly. You wrote it, and you wrote it better than I described. "The season is planted a single time. There is no mid-season reallocation if the mix is incorrect. Any error here isn't an inefficiency; it's locked in for the 36-week season." The distinction between an inefficiency and a locked-in commitment is the reason this decision deserves a written brief at all. Two points still off because the middle of the section is the case table transcribed, and transcription is not restatement. |
-| Hypothesis names a specific mix | 25 / 25 | Eight tomato, 20 carrot, 30 mesclun, 58 beds, six idle and stated as a consequence. Unchanged and still full marks. |
-| Economic mechanism | 22 / 25 | Unchanged. Still crop by crop, still directional, and the substitution argument — mesclun becomes attractive as tomatoes decline — is still the best framing anyone brought to this stage. The three points are the same three: you never put a number to the compounding. "Their margin will decline quickly" is the claim; 1.10 to the eighth is about 2.14, so the eighth tomato bed carries roughly twice the labor hours of the first, and that is the sentence that would close it. |
-| Falsifiability and process | 18 / 20 | Up from 10, and this is the whole move. Four conditions, each naming a number the model could return and the claim it would break — more than or fewer than 8 tomato beds, carrots under 20, mesclun under 30, more than 58 beds total. They are yours: I listed three of them out of your own text and you wrote the fourth. Two points off for no tolerance. "Fewer or additional beds of tomatoes" makes 9 beds and 19 beds the same verdict, and they mean different things about how fast you think the penalty bites. |
-| **Final** | **93 / 100** | entered |
+| Criterion | Where it stands |
+|---|---|
+| Problem restated in your own voice | The case table moved into its own clearly labelled Case data section and the problem section became prose in your own voice. That is the right fix and it is the fix I did not name — I said transcription is not restatement, and rather than delete the table you separated the two jobs, so the reader gets your reading of the trade-offs and still has the numbers to hand. "Mesclun sits in the middle on price, tied with tomatoes for fertilizer costs and has half the labor hours required" is you thinking about the crop, not copying a row. |
+| Hypothesis names a specific mix | Eight tomato, 20 carrot, 30 mesclun, 58 beds, six idle and explained. Unchanged. |
+| Economic mechanism | Unchanged, and it is unchanged deliberately — see the section below. The substitution argument is still the best framing anyone brought to this stage. The new sentence putting a number to the compounding is the right instinct and the wrong number, and I have not counted it against you because the surrounding argument does not depend on it. |
+| Falsifiability and process | "I would treat 6-10 beds planted as a confirmation that my reasoning was directionally correct with my crossover off by a bed or two. A planting result of 5 beds or less or 11 beds or more would mean that the underlying assumptions are wrong and not just the estimate." That is a band, a reason for its width, and a statement of what falls outside it meaning something different in kind. It is the distinction between being slightly off and being wrong, decided in advance. |
 
-### What actually moved, so you can repeat it
+### The arithmetic line, and why it matters before you build
 
-Two of the four criteria moved and both moved for the same reason: you took a claim you were already making implicitly and wrote it down explicitly.
+You wrote: "with a 10% compounding diminishing returns rate, the 8th tomato bed will generate 0.9^7 = 47.8% of the return that the first bed did while still shouldering the same 2.5 labor hrs/week/bed. So essentially, bed 8 is spending the same on labor and fertilizer costs while only generating half the revenue."
 
-You always knew the season is planted once. You always knew tomatoes are the crop that stops early. The brief scored 82 because those things were in your head and not on the page, and a brief is only worth what is on the page — in Stage 3 you compare what you committed to against what the model says, and an unwritten belief cannot be compared to anything.
+The diminishing-returns rate does not reduce revenue. It multiplies labor hours. Every bed of tomatoes sells for $8,800 whether it is the first bed or the twentieth — that is what being a price taker means, and the price is fixed by assumption in this case. What changes is the cost side: the eighth tomato bed needs more hours than the first, and the whole crop's hour requirement is q x 2.50 x 36 x 1.10^q.
 
-That is the whole discipline, and it is not about writing more. Your revision added about ten lines.
+So the direction of your conclusion is right and the mechanism behind it is inverted. Revenue is flat and cost rises; you have written cost flat and revenue falling. Both stories predict that tomatoes stop before the cap, which is why the error is easy to miss — but they predict it for opposite reasons, and a workbook built on the wrong one will not reproduce the case's figures.
 
-### The one thing to add before you build
+The version you want: one tomato bed takes 2.50 x 36 = 90 hours. Eight beds take 8 x 2.50 x 36 x 1.10^8, about 1,543 hours — not 720. Per bed that is roughly 193 hours against the first bed's 99. So the eighth bed costs about twice as much labor as the first while earning exactly the same $8,800. That is your sentence, with the arithmetic pointing the right way.
 
-Decide your tolerance now, while you cannot see the answer.
+### Why I did not count it against you
 
-You predict 8 tomato beds. If the model returns 9, were you wrong? If it returns 14? Pick the number you would accept as close enough that your mechanism was right and only your crossover estimate was off, and write it into the brief in one sentence. It takes thirty seconds and it is the difference between a Stage 3 reflection that says "I was wrong" and one that says what exactly was wrong.
+Two reasons, and they are both worth knowing.
 
-Do not wait until after the Solver run. A tolerance chosen after you have seen the answer is not a tolerance.
+The first is that scores in this course never go down. You were re-graded upward for the problem section and the tolerance band, and a mistake introduced in the same revision does not claw that back.
 
-### Looking ahead to Stage 1.2
+The second is that the argument you built the brief on does not rest on the bad line. Your case for 8 tomato beds was always "attractive first, declines fastest" plus the substitution point about mesclun — neither of which needs the 0.9^7 figure. The line is an attempt to quantify an argument you had already made correctly in words. Fix the line and nothing else in the brief has to move.
 
-There is nothing at capabilities/marginal-analysis/spec.md yet beyond a stub, and the stage is due 6 September. The specification is the deliverable that matters most in that stage — it is the document the workbook is built from, and the rule is that when a check fails you fix the specification and regenerate rather than patching the sheet.
+One student in this cohort has this same misreading — diminishing returns as a cut to harvest rather than a rise in labor — sitting in a specification he is about to build from, and it is the single most consequential error available in this case. Catching it now costs you ten minutes.
 
-Your substitution argument gives you a head start on part of it. The specification has to say how a marginal cost schedule is built, and the reason yours will be right is that you already understand the answer is not a ranking — it is a comparison that moves as the beds fill.
+### Stage 1.2 is due 6 september
+
+capabilities/marginal-analysis/spec.md is still a stub. The specification is the deliverable that carries the most weight in that stage — the workbook is built from it, and the rule is that when a check fails you correct the specification and regenerate rather than patching the sheet.
+
+Write the labor function into it explicitly, with the exponent on q, and write a hand-check underneath: one tomato bed is 99 hours, ten tomato beds are 2,334.37. Those two lines would have caught this morning's arithmetic before it reached the page.
 
 ---
 
@@ -43,9 +46,11 @@ Treat this PR the way an analyst treats feedback from a senior reviewer — a re
 
 1. **Read it yourself first.** Form your own view before you change anything. Disagreeing *with a documented reason* is a legitimate, senior response.
 2. **Stress-test it with an LLM.** Paste this review and your brief into your assistant and ask it to (a) explain anything you are unsure of, and (b) argue the *other side* — where might the reviewer be wrong, and what would you give up by making each change.
-3. **Then write the changes yourself.** For a brief, this matters more than usual: a hypothesis you did not generate cannot be honestly compared against your model in Stage 3, and that comparison is the entire point of writing the brief first.
+3. **Then write the changes yourself.** For a brief this matters more than usual: a hypothesis you did not generate cannot be honestly compared against your model in Stage 3, and that comparison is the entire point of writing the brief first.
 4. **Close the loop.** Reply in this thread with what you changed and what you pushed back on, then commit and push.
 
-*One standing rule for this stage: do not revise your hypothesis to match what your model later tells you. If the model contradicts the brief, that is a finding, not an error — Stage 3 asks you to explain the gap, and a brief quietly edited to be right afterwards has nothing left to explain.*
+*One standing rule: do not revise your hypothesis to match what your model later tells you. If the model contradicts the brief, that is a finding, not an error.*
+
+*Your score and the per-criterion breakdown are in your Lamaku comment, not here — this repository is public.*
 
 — Adam
